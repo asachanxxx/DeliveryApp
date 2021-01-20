@@ -1,0 +1,6 @@
+1.Find out whole sale details
+	- Prices
+	- Packing Details
+	
+2.Ride Share details
+	-  

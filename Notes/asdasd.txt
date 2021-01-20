@@ -1,0 +1,46 @@
+Grid>
+                <MediaElement LoadedBehavior="Manual" Visibility="{Binding IsVideoEnable,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" x:Name="advertismentVid" 
+                              MediaEnded="advertismentVid_MediaEnded" />
+                <itcc:SlideShow Visibility="{Binding IsImageListEnable,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" x:Name="PictureVideo" 
+                                HorizontalAlignment="Center" VerticalAlignment="Center" d:IsLocked="True" />
+            </Grid>
+
+
+cEnhancedWelcomePageViewModel.VideoMargin
+cMainWindowModel.VideoMargin
+_VideoMargin
+
+IsWelocomeScreenButtonsEnabled
+IsWelocomeScreenButtonsEnabled
+_IsWelocomeScreenButtonsEnabled
+
+
+pgEnhancedWelocmeProperty
+IsImageListEnable
+_IsImageListEnable
+
+VideoHeight = 280 SetTo Model OK
+VideoWidth = 380 SetTo Model OK
+VideoMargin right = 120 others = 0 SetTo Model OK
+IsVideoEnable = true
+IsVideoEnabel = false
+IsImageListEnable = True
+
+BlinkerWidth
+BlinkerMargin
+BlinkerHeight
+EnableBlinker
+BlinkerTexts = No setting
+TypedLanguageList
+BlinkerTextFG
+
+
+CopyrightVisibility 
+CopyrightBackground
+CopyrightForeground
+
+this.BlinkerTexts = new List<string>() { "PLEASE INSERT YOUR CARD TO BEGIN A TRANSACTION" };
+
+
+BlinkerTexts = cWelcomeScreen.BlinkerTextList.iBlinkerList;
+

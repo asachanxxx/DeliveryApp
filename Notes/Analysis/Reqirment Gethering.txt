@@ -1,0 +1,176 @@
+Description
+===========
+
+The whole point of the delivery is that deliver the goods to the customer as they order them.
+We don't need to express the Ordering process cus it's already known by all of us. so here 
+i am more forcus on the delivery parts.
+
+Areas
+-----
+to deliver the goods to customer the importan factor is the location of the customers. so based
+on the location or area we must define the delivery charges. so first of all we must clearly deine
+our areas that we do deliveris.
+
+OR
+
+imagine we have sales points defined and customer can order from any of them. and we can get the customer location from the app. and we know exactly how far away the customer is. so instead of the
+Area marking we can calculate delivery charges as the order placing. 
+
+KM Factor
+---------
+This factor is most important factor of the system. this means Price we charge for a KM. 
+so when customer place an order we get the distance from the sale point to the customers location
+then we calculate the delivery charges
+
+
+So now we have an order with following factors
+	-Delivery charges
+	-Customer Location
+	-Distance To the Customer
+	-Time delivery Expected.
+
+
+Order Preparing
+===============
+as the order placing the sales point determine the time to prepare the order;s items.
+when they finish the preparation they let the system know that the order is ready to deliver
+
+On time Delivery
+================
+In this mode  as the order ready to shiped the sales point let that know.so then our system will reqyest delivery from nearby drivers. system kept the online drivers every time and we can easyly direct the delivery request to them. 
+
+A ticket is created by the sales point and it's the one base for this delivery
+
+And one will accept the delivery and deliver the good to the customer. after delivery done he will upload the
+customer signature for the confirmation of the delivery. also we can get the confirmation via Customer app.
+
+When all done the delivery will complete. and the sales point will debit the delivery charges to our company
+then our company pay the debt to the driver according to the prepaired logics.
+
+
+Deliver Schedule
+================
+
+Ok first of all we need to define the Territories/Area of delivery. 
+
+Colombo - Moratuwa
+Colombo - Horana
+Colombo - Mattakkuliya
+Kandy - Pilimathalawa
+
+Then we can asisgn Drivers to each Area for delivery. so later we can assign the delivery automatically to them
+
+
+Then we should Define Store Locations/ Sale Points
+
+Sale Point - Kaduwela
+Sale Point - Nugegoda
+
+Then we can plan the Delivery routes for each Area.
+
+Route: Colombo - Moratuwa
+Driver: not Assigned
+Orders: 
+ID:	ORD0029
+	Customer: Cus001
+	Location: Latlng
+	DeiveryTime:
+	Sequence:1
+
+ID:	ORD0150
+	Customer: Cus578
+	Location: Latlng
+	Sequence:2
+
+Based on the Sequence the orders must be packed. highst must be packed first cus they are delivered last
+Then a drivers will be assign to each route automatically by availability.
+
+Drivers APP
+===========
+
+When a driver assigned by a delivery it will be on two type
+
+
+On time Delivery
+----------------
+when they accept a On time delivery they must deliver it on time. this type of deliveries are ment for
+sort time deliveries. 
+
+cus we mastered this is easy to implement.
+
+we need booking feature for this. means we need to book some goods for later. 
+There will be no shedule but sales point responsible to make the order on time and press  Order Ready button
+
+then the delivery request goes to selected driver
+	-Closest driver
+	-Top Rated
+
+
+Scheduled Delivery
+------------------
+When a delivery route created it's beieng assigned to a driver . 
+a Delivery request will be sent to the driver for confirmation via SMS and inApp messages.
+and if he is not accepted in time  then the company will need to assin another driver
+
+so when a confirmed driver assign to the delivery he will be recived the Delivery data
+444
+DeliveryID : xxxxxx
+Dispatch Time: Datetime
+Delivery Start Time: DateTime
+Shedule : Array Of Shedule Data;
+	  EX:  [{ ID:	ORD0150
+		Customer: Cus578
+		Location: Latlng
+		Sequence:2
+		Delivered: 
+		DateTime:
+		ConfirmPicture
+		CustomerConfirmation:
+		Additional Notes
+		Delivery Notes
+		}]
+Delivery Note:
+
+
+
+
+Client App
+==========
+closest
+Good Food
+Lawest Charge
+
+
+Delivery Personal
+=================
+Customer Feed Back
+------------------
+Goods Deliver OK - Make a rating out of this
+On time - 
+
+
+Complain
+========
+To Driver: Not on time , Goods Damage
+To Salesman: Goods Not In order, 
+
+
+
+
+
+
+Custommer => Location
+
+Shops List
+Select a shop
+Goods List
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,104 @@
+Inventory
+=========
+Products
+--------
+Unit -Nos
+Details - Rice Basmathi -5KG Pack
+CostPrice:
+SalePrice:
+ProfitFactor: 
+
+
+
+
+
+
+Delivery
+========
+Mon/Tue - Wen Delivery
+Wen/Thu - Fri delivery 
+
+5 H - $20
+7 H - $22 
+
+Per Delivery - $5
+
+
+Delivery Shedule
+================
+
+Mon/Tue Roster
+=============
+---------
+Orders 40 
+---------
+Delivery Address
+LatLng 
+(Need to get default customer Location)
+Amount
+EstimateDeliveryTime
+
+--------------
+Delivery Boys
+-------------
+No of Persons
+-------------
+5
+
+-------------
+Routes
+-------------
+1. North Sydney
+2. South Sydney
+3. Capital City
+
+
+
+RouteBreakdown
+--------------
+ North Sydney
+--------------
+Order 1
+order 22
+Order 23
+Order 55
+
+--------------
+South Sydney
+--------------
+Order 4
+Order 7
+Order 9
+Order 15
+
+
+
+Delivery APP
+============
+User Login - Malinda
+Delivery Boy - Malinda
+Default Route - North Sydney
+(When Delivery route Created completed notify all Delivery boys)
+
+IsPickedUpOrders -> Y/N 
+
+Mon/Tue Roster
+--------------
+ North Sydney
+--------------
+Order 1
+order 22
+Order 23
+Order 35
+
+Route Start
+-----------
+Order 1 - Delivered -Y - OK
+order 22 - Delivered -Y - OK 
+Order 23
+Order 35
+
+
+
+
+

@@ -1,0 +1,11 @@
+Process
+=======
+System Reived a Order
+Order directed to Store 
+Store Assigns Delivery to Driver
+Driver Receives Delivery & Updates Store & Customer
+Driver Delivers Package To Customer
+
+
+Features
+--------
